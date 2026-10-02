@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://online-kazino-s-vyvodom211.github.io/sitemap.xml

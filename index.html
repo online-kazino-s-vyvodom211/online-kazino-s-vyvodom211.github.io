@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Онлайн казино с выводом 2026 — заявка по шагам: статусы, отмена, KYC, СБП</title>
+<meta name="description" content="Инструкция по заявке на вывод в онлайн казино на 2026 год: восемь шагов от кнопки «Вывести» до зачисления по СБП, на карту МИР и в USDT. Статусы pending и approved, окно отмены, документы, ARN и TxID.">
+<link rel="canonical" href="https://online-kazino-s-vyvodom211.github.io/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Онлайн казино с выводом: заявка от кнопки «Вывести» до зачисления по шагам">
+<meta property="og:description" content="Что происходит с заявкой на вывод внутри кассы: очередь, проверка, окно отмены, передача платёжному провайдеру, зачисление по СБП, на карту МИР и в USDT. Восемь шагов и схема переходов между статусами.">
+<meta property="og:url" content="https://online-kazino-s-vyvodom211.github.io/">
+<meta property="og:locale" content="ru_RU">
+<link rel="icon" href="/favicon.svg" type="i.age-mark/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+:root{
+  --well:#e9eef0;--pane:#f6f8f9;--pane-2:#dde4e7;--float:#ffffff;
+  --txt:#1a262d;--txt-2:#43545d;--txt-3:#64757e;--seam:#c8d2d7;--seam-2:#9fb0b8;
+  --lagoon:#137e78;--lagoon-deep:#0d615c;--lagoon-tint:#d4ebe8;--on-lagoon:#f0faf8;
+  --pass:#2a7a52;--pass-tint:#d9eee1;--halt:#a63a30;--halt-tint:#f2dcd8;--flag:#8c6a1c;--flag-tint:#f0e7cd;
+  --queue:#6f8794;--queue-tint:#dfe6ea;
+  --seg-1:#9fb0b8;--seg-2:#8c6a1c;--seg-3:#137e78;--seg-4:#2a7a52;
+  --ring:color-mix(in srgb,var(--lagoon) 35%,transparent);
+  --serif:"PT Serif","Iowan Old Style",Georgia,"Times New Roman",serif;
+  --sans:"PT Sans","Segoe UI",Roboto,Arial,sans-serif;
+  --fz-h1:clamp(1.95rem,1.25rem + 2.6vw,3rem);--fz-h2:clamp(1.4rem,1.15rem + 1vw,1.75rem);--fz-h3:1.125rem;
+  --fz.intro-par:clamp(1.0625rem,1rem + .3vw,1.1875rem);--fz-body:1.0625rem;--fz-ui:.9375rem;--fz-small:.875rem;--fz-tiny:.75rem;
+  --sp-1:4px;--sp-2:8px;--sp-3:12px;--sp-4:16px;--sp-5:24px;--sp-6:32px;--sp-7:48px;--sp-8:64px;
+  --side:clamp(16px,4vw,28px);--leg-gap:clamp(44px,6vw,80px);
+  -.prose-col:68ch;--board:1120px;
+  --rd-1:3px;--rd-2:7px;--rd-3:11px;
+  --lift-1:0 1px 2px rgba(26,38,45,.08);--lift-2:0 6px 18px -8px rgba(26,38,45,.25);
+  --curve:cubic-bezier(.2,.75,.3,1);--t-fast:120ms;--t-mid:220ms;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --well:#141c20;--pane:#1b2429;--pane-2:#232e34;--float:#27333a;
+  --txt:#e3e9ec;--txt-2:#aebbc2;--txt-3:#8696a0;--seam:#30404a;--seam-2:#4b5f6b;
+  --lagoon:#3fb8ad;--lagoon-deep:#2f9c92;--lagoon-tint:#1d3a39;--on-lagoon:#0d1a19;
+  --pass:#5fbf8a;--pass-tint:#1b3328;--halt:#e07a6e;--halt-tint:#3b2320;--flag:#d6ab4b;--flag-tint:#352c18;
+  --queue:#8da1ad;--queue-tint:#243036;
+  --seg-1:#5f717b;--seg-2:#d6ab4b;--seg-3:#3fb8ad;--seg-4:#5fbf8a;
+  --lift-1:0 1px 2px rgba(0,0,0,.35);--lift-2:0 8px 20px -8px rgba(0,0,0,.6);
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --well:#141c20;--pane:#1b2429;--pane-2:#232e34;--float:#27333a;
+  --txt:#e3e9ec;--txt-2:#aebbc2;--txt-3:#8696a0;--seam:#30404a;--seam-2:#4b5f6b;
+  --lagoon:#3fb8ad;--lagoon-deep:#2f9c92;--lagoon-tint:#1d3a39;--on-lagoon:#0d1a19;
+  --pass:#5fbf8a;--pass-tint:#1b3328;--halt:#e07a6e;--halt-tint:#3b2320;--flag:#d6ab4b;--flag-tint:#352c18;
+  --queue:#8da1ad;--queue-tint:#243036;
+  --seg-1:#5f717b;--seg-2:#d6ab4b;--seg-3:#3fb8ad;--seg-4:#5fbf8a;
+  --lift-1:0 1px 2px rgba(0,0,0,.35);--lift-2:0 8px 20px -8px rgba(0,0,0,.6);
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition-duration:1ms!important;animation-duration:1ms!important}}
+body{margin:0;background:var(--well);color:var(--txt);font-family:var(--sans);font-size:var(--fz-body);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:var(--serif);font-weight:700;line-height:1.2;margin:0 0 var(--sp-4);letter-spacing:-.005em}
+h1{font-size:var(--fz-h1)}h2{font-size:var(--fz-h2)}h3{font-size:var(--fz-h3);margin-top:var(--sp-5)}
+p{margin:0 0 var(--sp-4)}
+a{color:var(--lagoon-deep);text-decoration-thickness:1px;text-underline-offset:2px}
+a:hover{color:var(--lagoon)}
+:focus-visible{outline:2px solid var(--lagoon);outline-offset:2px}
+::selection{background:var(--lagoon-tint)}
+b,strong{font-weight:700}
+small{font-size:var(--fz-small)}
+.frame-w{max-width:var(--board);margin:0 auto;padding:0 var(--side)}
+.prose-col{max-width:var(-.prose-col)}
+.faded{color:var(--txt-3)}
+.nowrap{white-space:nowrap}
+
+/* masthead */
+.cashhead{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--pane) 92%,transparent);border-bottom:1px solid var(--seam);transition:box-shadow var(--t-mid) var(--curve)}
+.cashhead.is-stuck{box-shadow:var(--lift-1)}
+.cashhead-row{display:flex;align-items:center;gap:var(--sp-4);height:56px}
+.brandline{display:inline-flex;align-items:center;gap:var(--sp-2);font-family:var(--serif);font-weight:700;font-size:1.0625rem;color:var(--txt);text-decoration:none;white-space:nowrap}
+.brandline svg{width:22px;height:22px}
+.jumplist{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;margin-left:auto;mask-i.age-mark:linear-gradient(90deg,#000 88%,transparent)}
+.jumplist::-webkit-scrollbar{display:none}
+.jumplist a{font-size:var(--fz-ui);color:var(--txt-2);text-decoration:none;padding:6px 10px;border-radius:var(--rd-2);white-space:nowrap}
+.jumplist a:hover{background:var(--pane-2);color:var(--txt)}
+.jumplist a.is-here{background:var(--lagoon-tint);color:var(--lagoon-deep)}
+.lightbtn{flex:none;border:1px solid var(--seam);background:var(--pane);color:var(--txt-2);width:36px;height:36px;border-radius:var(--rd-2);cursor:pointer;display:inline-grid;place-items:center}
+.lightbtn:hover{background:var(--pane-2);color:var(--txt)}
+.lightbtn svg{width:18px;height:18px}
+
+/*.front-desk */
+.front-desk{padding:var(--sp-7) 0 var(--sp-6);display:grid;gap:var(--sp-6);grid-template-columns:minmax(0,1fr) minmax(280px,360px);align-items:start}
+@media (max-width:860px){.front-desk{grid-template-columns:1fr}}
+.datemark{font-size:var(--fz-small);color:var(--txt-3);margin-bottom:var(--sp-3)}
+.intro-par{font-size:var(--fz.intro-par);color:var(--txt-2);max-width:var(-.prose-col)}
+.ticket{background:var(--float);border:1px solid var(--seam);border-radius:var(--rd-3);box-shadow:var(--lift-2);overflow:hidden;font-family:var(--sans)}
+.ticket-top{display:flex;justify-content:space-between;align-items:baseline;padding:var(--sp-3) var(--sp-4);border-bottom:1px dashed var(--seam-2);font-size:var(--fz-small);color:var(--txt-3)}
+.ticket-top b{color:var(--txt);font-family:var(--serif);font-size:1rem}
+.ticket dl{margin:0;padding:var(--sp-3) var(--sp-4);display:grid;grid-template-columns:auto 1fr;gap:6px var(--sp-4);font-size:var(--fz-ui)}
+.ticket dt{color:var(--txt-3)}
+.ticket dd{margin:0;font-variant-numeric:tabular-nums}
+.ticket-foot{padding:var(--sp-3) var(--sp-4);background:var(--pane);border-top:1px solid var(--seam);font-size:var(--fz-tiny);color:var(--txt-3)}
+.stt-pill{display:inline-flex;align-items:center;gap:6px;padding:1px 8px;border-radius:var(--rd-1);font-size:var(--fz-small);font-weight:700}
+.stt-pill::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor}
+.stt-pill.is-queue{background:var(--queue-tint);color:var(--queue)}
+.stt-pill.is-pass{background:var(--pass-tint);color:var(--pass)}
+.stt-pill.is-halt{background:var(--halt-tint);color:var(--halt)}
+.stt-pill.is-flag{background:var(--flag-tint);color:var(--flag)}
+
+/* milestone tracker */
+.tracker{margin:0 0 var(--leg-gap);padding:var(--sp-4) var(--side);background:var(--pane);border:1px solid var(--seam);border-radius:var(--rd-3)}
+.tracker ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(8,1fr);gap:var(--sp-2);counter-reset:mile}
+.tracker li{counter-increment:mile;position:relative;font-size:var(--fz-small);line-height:1.3;padding-top:28px}
+.tracker li::before{content:counter(mile);position:absolute;top:0;left:0;width:22px;height:22px;border-radius:50%;background:var(--lagoon);color:var(--on-lagoon);font-weight:700;font-size:var(--fz-tiny);display:grid;place-items:center}
+.tracker li::after{content:"";position:absolute;top:11px;left:26px;right:-8px;height:1px;background:var(--seam-2)}
+.tracker li:last-child::after{display:none}
+.tracker a{color:var(--txt-2);text-decoration:none}
+.tracker a:hover{color:var(--lagoon-deep);text-decoration:underline}
+@media (max-width:860px){.tracker ol{grid-template-columns:repeat(4,1fr);row-gap:var(--sp-4)}.tracker li:nth-child(4)::after{display:none}}
+@media (max-width:480px){.tracker ol{grid-template-columns:repeat(2,1fr)}.tracker li:nth-child(2n)::after{display:none}.tracker li:nth-child(4)::after{display:none}}
+
+/* legs */
+.leg{padding:0 0 var(--leg-gap)}
+.leg-head{display:grid;grid-template-columns:auto 1fr;gap:var(--sp-4);align-items:start;max-width:var(--board)}
+.leg-index{font-family:var(--serif);font-size:var(--fz-small);color:var(--lagoon-deep);border:1px solid var(--lagoon);border-radius:var(--rd-1);padding:2px 7px;margin-top:8px;white-space:nowrap}
+.leg .prose-col p{max-width:var(-.prose-col)}
+.keyline{font-size:var(--fz.intro-par);color:var(--txt);max-width:var(-.prose-col);padding:var(--sp-3) var(--sp-4);background:var(--pane);border:1px solid var(--seam);border-radius:var(--rd-2);margin-bottom:var(--sp-5)}
+.keyline b{color:var(--lagoon-deep)}
+
+/* steps */
+.steps{list-style:none;margin:var(--sp-5) 0;padding:0;counter-reset:st;display:grid;gap:var(--sp-3)}
+.steps li{counter-increment:st;display:grid;grid-template-columns:40px 1fr;gap:var(--sp-3);padding:var(--sp-4);background:var(--float);border:1px solid var(--seam);border-radius:var(--rd-2)}
+.steps li::before{content:counter(st,decimal-leading-zero);font-family:var(--serif);font-size:1.4rem;color:var(--lagoon-deep);line-height:1}
+.steps b{display:block;font-family:var(--serif);font-size:1.0625rem;margin-bottom:4px}
+.steps .actor{display:block;font-size:var(--fz-small);color:var(--txt-3);margin-top:6px}
+
+/* plates (figures) */
+.exhibit{margin:var(--sp-5) 0;background:var(--float);border:1px solid var(--seam);border-radius:var(--rd-3);padding:var(--sp-4);box-shadow:var(--lift-1)}
+.exhibit svg{display:block;width:100%;height:auto;font-family:var(--sans)}
+.exhibit figcaption{font-size:var(--fz-small);color:var(--txt-3);margin:var(--sp-3) 0 var(--sp-2)}
+.exhibit-table{overflow-x:auto;-webkit-overflow-scrolling:touch;border-top:1px solid var(--seam);padding-top:var(--sp-3)}
+table{border-collapse:collapse;width:100%;font-size:var(--fz-ui);font-variant-numeric:tabular-nums}
+caption{text-align:left;font-family:var(--serif);font-weight:700;padding:0 0 var(--sp-2)}
+th,td{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid var(--seam)}
+th{font-weight:700;color:var(--txt-2);background:var(--pane);white-space:nowrap}
+tbody th{background:transparent;color:var(--txt);white-space:normal}
+.exhibit-table th:first-child,.exhibit-table td:first-child{position:sticky;left:0;background:var(--float);z-index:1}
+.exhibit-table thead th:first-child{background:var(--pane)}
+td.figs{text-align:right;white-space:nowrap}
+.chip-ink{display:inline-block;width:10px;height:10px;border-radius:2px;vertical-align:middle;margin-right:6px}
+
+/* side notes */
+.notes{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:var(--sp-3);margin:var(--sp-5) 0}
+.notes div{padding:var(--sp-3) var(--sp-4);background:var(--pane);border:1px solid var(--seam);border-radius:var(--rd-2);font-size:var(--fz-ui)}
+.notes b{display:block;font-family:var(--serif);margin-bottom:4px}
+.notes .is-halt b{color:var(--halt)}.notes .is-pass b{color:var(--pass)}.notes .is-flag b{color:var(--flag)}
+
+/* queries (faq) */
+.qa-fold{border:1px solid var(--seam);border-radius:var(--rd-2);background:var(--float);margin-bottom:var(--sp-3);max-width:var(-.prose-col)}
+.qa-fold summary{cursor:pointer;padding:var(--sp-3) var(--sp-4);font-family:var(--serif);font-weight:700;list-style:none;display:flex;gap:var(--sp-3);align-items:baseline}
+.qa-fold summary::-webkit-details-marker{display:none}
+.qa-fold summary::before{content:"+";color:var(--lagoon);font-family:var(--sans);flex:none;width:1em}
+.qa-fold[open] summary::before{content:"–"}
+.qa-fold .body{padding:0 var(--sp-4) var(--sp-4) calc(var(--sp-4) + 1em + var(--sp-3));color:var(--txt-2)}
+.qa-fold .body p{margin:0}
+
+/* channel */
+.wire-box{background:var(--pane);border:1px solid var(--seam);border-radius:var(--rd-3);padding:var(--sp-5);display:grid;gap:var(--sp-4);grid-template-columns:minmax(0,1fr) auto;align-items:center}
+@media (max-width:640px){.wire-box{grid-template-columns:1fr}}
+.wire-go{display:inline-flex;align-items:center;gap:var(--sp-2);background:var(--lagoon);color:var(--on-lagoon);padding:10px 16px;border-radius:var(--rd-2);text-decoration:none;font-weight:700;font-size:var(--fz-ui)}
+.wire-go:hover{background:var(--lagoon-deep);color:var(--on-lagoon)}
+.wire-go svg{width:18px;height:18px}
+
+/*.duty &.endmatter */
+.duty{border-top:1px solid var(--seam);border-bottom:1px solid var(--seam);padding:var(--sp-5) 0;font-size:var(--fz-ui);color:var(--txt-2)}
+.duty .age-mark{display:inline-grid;place-items:center;width:40px;height:40px;border:2px solid var(--txt-2);border-radius:var(--rd-2);font-weight:700;margin-right:var(--sp-3);float:left}
+.endmatter{padding:var(--sp-6) 0 var(--sp-7);font-size:var(--fz-small);color:var(--txt-3);display:grid;gap:var(--sp-4);grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.endmatter b{color:var(--txt-2);font-family:var(--serif);display:block;margin-bottom:4px}
+.endmatter ul{list-style:none;margin:0;padding:0}
+.endmatter li{margin-bottom:4px}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","@id":"https://online-kazino-s-vyvodom211.github.io/#.age-mark","headline":"Онлайн казино с выводом: заявка от кнопки «Вывести» до зачисления по шагам в 2026 году","description":"Инструкция по заявке на вывод в онлайн казино на 2026 год: восемь шагов от кнопки «Вывести» до зачисления по СБП, на карту МИР и в USDT. Статусы pending и approved, окно отмены, документы, ARN и TxID.","inLang.age-mark":"ru","datePublished":"2026-10-01","dateModified":"2026-10-01","author":{"@type":"Organization","name":"Редакция «Окно кассы»"},"publisher":{"@type":"Organization","name":"Окно кассы"},"mainEntityOf.age-mark":"https://online-kazino-s-vyvodom211.github.io/"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HowTo","@id":"https://online-kazino-s-vyvodom211.github.io/#howto-zayavka","name":"Заявка на вывод в онлайн казино: восемь шагов от кнопки «Вывести» до зачисления","totalTime":"PT30H","step":[
+{"@type":"HowToStep","position":1,"name":"Открыть вкладку «Вывод» и прочитать строку «доступно к выводу».","text":"Открыть вкладку «Вывод» и прочитать строку «доступно к выводу». Число в этой строке меньше общего баланса: касса уже вычла бонусные деньги, незакрытый оборот и ставки в незавершённых раундах. Заявку принимают только на сумму из этой строки — если она равна нулю, причина написана рядом или в разделе «Бонусы». Игрок."},
+{"@type":"HowToStep","position":2,"name":"Выбрать рельс и реквизит, которым уже пополняли счёт.","text":"Выбрать рельс и реквизит, которым уже пополняли счёт. В списке реквизитов касса показывает только те, что прошли хотя бы один депозит: номер телефона для СБП, маску карты МИР, адрес кошелька USDT. Новый реквизит в заявке — это дополнительная проверка владения, поэтому первую заявку лучше подавать на уже знакомый кассе реквизит. Игрок."},
+{"@type":"HowToStep","position":3,"name":"Ввести сумму в пределах лимита на одну операцию и округлить её.","text":"Ввести сумму в пределах лимита на одну операцию и округлить её. Касса сравнивает сумму с тремя лимитами — на операцию, в сутки и в месяц — и с комиссией рельса. Сумма вроде 14 870 ₽ ничем не лучше 15 000 ₽, а дробление одной суммы на пять заявок подряд попадает под правило антифрода о серийных выводах и уходит на ручную проверку. Игрок."},
+{"@type":"HowToStep","position":4,"name":"Подтвердить заявку кодом и записать её номер.","text":"Подтвердить заявку кодом и записать её номер. После кода из SMS, письма или приложения-аутентификатора заявка получает номер и статус pending, а сумма списывается с баланса в резерв. Номер и время подачи нужны для любого обращения в поддержку — без них оператор ищет заявку по почте и телефону дольше. Игрок."},
+{"@type":"HowToStep","position":5,"name":"Переждать окно отмены, не нажимая «Отменить».","text":"Переждать окно отмены, не нажимая «Отменить». Пока статус pending, рядом с заявкой есть кнопка отмены — reverse withdrawal. Нажатие возвращает сумму на игровой баланс, и путь начинается заново. Статус pending означает место в очереди на проверку, а не отказ; норма ожидания — от нескольких минут до 24 часов по правилам кассы. Касса."},
+{"@type":"HowToStep","position":6,"name":"Ответить на запрос документов одним пакетом.","text":"Ответить на запрос документов одним пакетом. Если антифрод-скоринг или сумма выше порога отправили заявку на ручную проверку, служба запрашивает документы: паспорт, подтверждение адреса, селфи, а при крупных суммах — источник средств. Отправлять нужно всё, что перечислено, за один раз: каждая досылка возвращает заявку в конец очереди. Игрок и касса."},
+{"@type":"HowToStep","position":7,"name":"Дождаться статусов approved и sent.","text":"Дождаться статусов approved и sent. Approved — служба одобрила заявку, деньги ещё у оператора. Sent — касса передала платёж провайдеру, появился идентификатор транзакции. С этого момента срок зависит от рельса: СБП зачисляет за минуты, карта МИР — от минут до трёх рабочих дней, USDT в сети TRC-20 — после подтверждений блоков. Касса и провайдер."},
+{"@type":"HowToStep","position":8,"name":"Сверить зачисление и закрыть заявку.","text":"Сверить зачисление и закрыть заявку. Сумма на счёте должна совпадать с суммой заявки минус комиссия, которую касса показала до подтверждения. Если деньги не пришли в срок рельса, запросить у оператора идентификатор: ARN для карты, TxID для USDT, номер операции СБП — и только с ним обращаться в банк. Игрок."}
+]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","@id":"https://online-kazino-s-vyvodom211.github.io/#faq","mainEntity":[
+{"@type":"Question","name":"Нажал «Отменить» по ошибке — заявку нужно подавать заново?","acceptedAnswer":{"@type":"Answer","text":"Да. Отмена возвращает сумму на игровой баланс, и прежний номер заявки закрывается. Новая заявка получает новый номер и новое место в очереди, поэтому время ожидания считается с нуля. Единственная выгода отмены — исправить реквизит или сумму до того, как служба проверки взяла заявку в работу."}},
+{"@type":"Question","name":"Касса просит селфи с паспортом и листком, где написана дата, — это обычная практика?","acceptedAnswer":{"@type":"Answer","text":"Да, это шаг усиленной проверки личности: оператор убеждается, что документ держит его владелец, а снимок сделан сейчас, а не взят из утечки. Лист с датой и названием сайта заменяет видеозвонок. Снимать нужно при дневном свете, без обрезки углов паспорта и без фильтров — размытое фото возвращает заявку в очередь ещё на один круг."}},
+{"@type":"Question","name":"Статус approved держится второй день, на карту ничего не пришло — на чьей стороне задержка?","acceptedAnswer":{"@type":"Answer","text":"На стороне оператора. Approved означает только решение службы проверки; платёж ещё не передан провайдеру, иначе статус сменился бы на sent и появился бы идентификатор транзакции. Причины — пакетная отправка выплат раз в сутки, лимит оператора у платёжного провайдера или нехватка ликвидности на рельсе. Запрос в поддержку с номером заявки обычно ускоряет передачу."}},
+{"@type":"Question","name":"Комиссию указывать в сумме заявки или касса вычитает её сама?","acceptedAnswer":{"@type":"Answer","text":"Касса показывает комиссию до подтверждения: либо сверху, когда с баланса списывается сумма заявки плюс комиссия, либо внутри, когда на счёт приходит сумма заявки минус комиссия. Способ записан в правилах кассы, а на экране подтверждения видна итоговая сумма к зачислению. Сверять приход нужно именно с этим числом, а не с суммой, которую вводили в поле."}},
+{"@type":"Question","name":"Что такое ARN и где его взять, если банк просит?","acceptedAnswer":{"@type":"Answer","text":"ARN — номер, который платёжная система присваивает переводу на карту; по нему банк-эмитент находит операцию, даже если она ещё не отразилась на счёте. Выдаёт его оператор или его платёжный провайдер после статуса sent. Без ARN банк может только ждать поступления, а с ARN открывает розыск перевода и отвечает по срокам, записанным в договоре обслуживания карты."}},
+{"@type":"Question","name":"Сколько заявок можно держать открытыми одновременно?","acceptedAnswer":{"@type":"Answer","text":"Обычно одну-три; точное число записано в правилах кассы рядом с лимитами. Пока одна заявка в статусе pending, вторая часто недоступна или уходит в очередь за первой. Несколько открытых заявок подряд на одну сумму антифрод читает как попытку обойти лимит на операцию, поэтому одна заявка в пределах суточного лимита проходит быстрее нескольких мелких."}}
+]}
+</script>
+</head>
+<body>
+
+<header class="cashhead" id=.cashhead">
+  <div class="frame-w mast-row">
+    <a class="brandline" href="#top" aria-label="Окно кассы — на начало страницы">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="12" fill="var(--txt)"/><path d="M14 22h36v20H14z" fill="none" stroke="var(--lagoon)" stroke-width="4"/><path d="M14 30h36" stroke="var(--lagoon)" stroke-width="4"/><circle cx="43" cy="36" r="3" fill="var(--lagoon)"/></svg>
+      Окно кассы
+    </a>
+    <nav class="jumplist" aria-label="Разделы">
+      <a href="#shagi">Шаги</a>
+      <a href="#dostupno">Доступно к выводу</a>
+      <a href="#rekvizity">Реквизиты</a>
+      <a href="#summa">Сумма</a>
+      <a href="#otmena">Окно отмены</a>
+      <a href="#dokumenty">Документы</a>
+      <a href="#relsy">Зачисление</a>
+      <a href="#rozysk">Розыск</a>
+      <a href="#voprosy">Вопросы</a>
+    </nav>
+    <button class="lightbtn" id="lightbtn" type="button" aria-label="Переключить тему">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+<div class="frame-w">
+
+<section class="front-desk" aria-labelledby="h1">
+  <div>
+    <p class="datemark">Обновлено 1 октября 2026 · Москва · редакция «Окно кассы»</p>
+    <h1 id="h1">Онлайн казино с выводом: заявка от кнопки «Вывести» до зачисления по шагам в 2026 году</h1>
+    <p class="intro-par">Эта страница — про саму заявку на вывод из онлайн казино: что происходит с ней после подтверждения, какой статус за что отвечает, когда её ещё можно отозвать, какие документы попросят посреди пути и как деньги идут по СБП, на карту МИР и в USDT после слова «отправлено». Восемь шагов, схема переходов между статусами и оценка времени на каждом отрезке — по открытым правилам касс и платёжных систем на сегодня.</p>
+    <p class="intro-par">Онлайн казино с выводом денег здесь понимается буквально: оператор, у которого путь от выигрыша до счёта прозрачен на каждом статусе. Выбор площадки, версии RTP и отыгрыш бонуса не разбираются — инструкция начинается в момент, когда на балансе уже лежит выигрыш, который хочется получить на карту.</p>
+  </div>
+  .notes class="ticket" aria-label="Пример карточки заявки на вывод">
+    <div class="ticket-top"><b>Заявка № 48 213</b><span>подана 14:02</span></div>
+    <dl>
+      <dt>Рельс</dt><dd>СБП, +7 ··· ·· 41</dd>
+      <dt>Сумма</dt><dd>15 000 ₽</dd>
+      <dt>Комиссия</dt><dd>0 ₽, внутри суммы</dd>
+      <dt>К зачислению</dt><dd>15 000 ₽</dd>
+      <dt>Статус</dt><dd><span class="stt-pill is-queue">pending</span></dd>
+      <dt>Отмена</dt><dd>доступна до взятия в работу</dd>
+    </dl>
+    <div class="ticket-foot">Пример заполнения, не снимок реальной кассы. Поля повторяют типовую форму вывода.</div>
+  <.notes>
+</section>
+
+<nav class="tracker" aria-label="Ход заявки">
+  <ol>
+    <li><a href="#shagi">Доступно к выводу</a></li>
+    <li><a href="#rekvizity">Рельс и реквизит</a></li>
+    <li><a href="#summa">Сумма и лимит</a></li>
+    <li><a href="#shagi">Код и номер заявки</a></li>
+    <li><a href="#otmena">Окно отмены</a></li>
+    <li><a href="#dokumenty">Запрос документов</a></li>
+    <li><a href="#relsy">Approved → sent</a></li>
+    <li><a href="#rozysk">Сверка зачисления</a></li>
+  </ol>
+</nav>
+
+<!-- 01 шаги -->
+<section class="leg" id="shagi" aria-labelledby="h-shagi">
+  <div class="leg-head"><span class="leg-index">01</span><h2 id="h-shagi">Восемь шагов заявки: что делает игрок и что в это время делает касса</h2></div>
+  <p class="keyline">Четыре шага из восьми выполняет игрок за <b>5–10 минут</b>, остальные четыре — касса, служба проверки и платёжный провайдер. Самый долгий отрезок — не очередь кассы, а рельс после статуса sent: по СБП это минуты, на карту МИР — <b>до трёх рабочих дней</b>.</p>
+  <div class="prose-col">
+    <p>Заявка на вывод в онлайн казино устроена как эстафета: игрок отдаёт её кассе, касса — службе проверки, служба — обратно кассе, касса — платёжному провайдеру, провайдер — банку или блокчейн-сети. На каждой передаче меняется статус, по которому видно, у кого документ сейчас. Шаги ниже расписаны в этой логике: кто держит эстафету и что именно его задерживает.</p>
+  </div>
+  <ol class="steps" id="howto-list">
+    <li><b>Открыть вкладку «Вывод» и прочитать строку «доступно к выводу».</b> Число в этой строке меньше общего баланса: касса уже вычла бонусные деньги, незакрытый оборот и ставки в незавершённых раундах. Заявку принимают только на сумму из этой строки — если она равна нулю, причина написана рядом или в разделе «Бонусы». <span class="actor">Игрок.</span></li>
+    <li><b>Выбрать рельс и реквизит, которым уже пополняли счёт.</b> В списке реквизитов касса показывает только те, что прошли хотя бы один депозит: номер телефона для СБП, маску карты МИР, адрес кошелька USDT. Новый реквизит в заявке — это дополнительная проверка владения, поэтому первую заявку лучше подавать на уже знакомый кассе реквизит. <span class="actor">Игрок.</span></li>
+    <li><b>Ввести сумму в пределах лимита на одну операцию и округлить её.</b> Касса сравнивает сумму с тремя лимитами — на операцию, в сутки и в месяц — и с комиссией рельса. Сумма вроде 14 870 ₽ ничем не лучше 15 000 ₽, а дробление одной суммы на пять заявок подряд попадает под правило антифрода о серийных выводах и уходит на ручную проверку. <span class="actor">Игрок.</span></li>
+    <li><b>Подтвердить заявку кодом и записать её номер.</b> После кода из SMS, письма или приложения-аутентификатора заявка получает номер и статус pending, а сумма списывается с баланса в резерв. Номер и время подачи нужны для любого обращения в поддержку — без них оператор ищет заявку по почте и телефону дольше. <span class="actor">Игрок.</span></li>
+    <li><b>Переждать окно отмены, не нажимая «Отменить».</b> Пока статус pending, рядом с заявкой есть кнопка отмены — reverse withdrawal. Нажатие возвращает сумму на игровой баланс, и путь начинается заново. Статус pending означает место в очереди на проверку, а не отказ; норма ожидания — от нескольких минут до 24 часов по правилам кассы. <span class="actor">Касса.</span></li>
+    <li><b>Ответить на запрос документов одним пакетом.</b> Если антифрод-скоринг или сумма выше порога отправили заявку на ручную проверку, служба запрашивает документы: паспорт, подтверждение адреса, селфи, а при крупных суммах — источник средств. Отправлять нужно всё, что перечислено, за один раз: каждая досылка возвращает заявку в конец очереди. <span class="actor">Игрок и касса.</span></li>
+    <li><b>Дождаться статусов approved и sent.</b> Approved — служба одобрила заявку, деньги ещё у оператора. Sent — касса передала платёж провайдеру, появился идентификатор транзакции. С этого момента срок зависит от рельса: СБП зачисляет за минуты, карта МИР — от минут до трёх рабочих дней, USDT в сети TRC-20 — после подтверждений блоков. <span class="actor">Касса и провайдер.</span></li>
+    <li><b>Сверить зачисление и закрыть заявку.</b> Сумма на счёте должна совпадать с суммой заявки минус комиссия, которую касса показала до подтверждения. Если деньги не пришли в срок рельса, запросить у оператора идентификатор: ARN для карты, TxID для USDT, номер операции СБП — и только с ним обращаться в банк. <span class="actor">Игрок.</span></li>
+  </ol>
+
+  <figure class="exhibit" id="fig-shagi">
+    <svg viewBox="0 0 960 300" role="img" aria-labelledby="t1 d1">
+      <title id="t1">Восемь шагов заявки: у кого заявка на каждом шаге</title>
+      <desc id="d1">Схема из восьми шагов в две линии: верхняя линия — действия игрока, нижняя — действия кассы, службы проверки и провайдера; стрелки показывают передачу заявки.</desc>
+      <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5 0 10z" fill="var(--seam-2)"/></marker></defs>
+      <text x="16" y="34" font-size="13" fill="var(--txt-3)">Игрок</text>
+      <text x="16" y="214" font-size="13" fill="var(--txt-3)">Касса · проверка · провайдер</text>
+      <g font-size="13" fill="var(--txt)">
+        <rect x="80" y="48" width="150" height="56" rx="7" fill="var(--pane)" stroke="var(--seam)"/><circle cx="98" cy="62" r="9" fill="var(--lagoon)"/><text x="98" y="66" text-anchor="middle" font-size="11" fill="var(--on-lagoon)" font-weight="700">1</text><text x="112" y="68">Доступно</text><text x="112" y="86">к выводу</text>
+        <rect x="250" y="48" width="150" height="56" rx="7" fill="var(--pane)" stroke="var(--seam)"/><circle cx="268" cy="62" r="9" fill="var(--lagoon)"/><text x="268" y="66" text-anchor="middle" font-size="11" fill="var(--on-lagoon)" font-weight="700">2</text><text x="282" y="68">Рельс</text><text x="282" y="86">и реквизит</text>
+        <rect x="420" y="48" width="150" height="56" rx="7" fill="var(--pane)" stroke="var(--seam)"/><circle cx="438" cy="62" r="9" fill="var(--lagoon)"/><text x="438" y="66" text-anchor="middle" font-size="11" fill="var(--on-lagoon)" font-weight="700">3</text><text x="452" y="68">Сумма</text><text x="452" y="86">и лимит</text>
+        <rect x="590" y="48" width="150" height="56" rx="7" fill="var(--pane)" stroke="var(--seam)"/><circle cx="608" cy="62" r="9" fill="var(--lagoon)"/><text x="608" y="66" text-anchor="middle" font-size="11" fill="var(--on-lagoon)" font-weight="700">4</text><text x="622" y="68">Код</text><text x="622" y="86">и номер</text>
+        <rect x="760" y="228" width="150" height="56" rx="7" fill="var(--pane)" stroke="var(--seam)"/><circle cx="778" cy="242" r="9" fill="var(--lagoon)"/><text x="778" y="246" text-anchor="middle" font-size="11" fill="var(--on-lagoon)" font-weight="700">8</text><text x="792" y="248">Сверка</text><text x="792" y="266">зачисления</text>
+        <rect x="590" y="228" width="150" height="56" rx="7" fill="var(--pane)" stroke="var(--seam)"/><circle cx="608" cy="242" r="9" fill="var(--lagoon)"/><text x="608" y="246" text-anchor="middle" font-size="11" fill="var(--on-lagoon)" font-weight="700">7</text><text x="622" y="248">Approved</text><text x="622" y="266">→ sent</text>
+        <rect x="420" y="228" width="150" height="56" rx="7" fill="var(--pane)" stroke="var(--seam)"/><circle cx="438" cy="242" r="9" fill="var(--lagoon)"/><text x="438" y="246" text-anchor="middle" font-size="11" fill="var(--on-lagoon)" font-weight="700">6</text><text x="452" y="248">Запрос</text><text x="452" y="266">документов</text>
+        <rect x="250" y="228" width="150" height="56" rx="7" fill="var(--pane)" stroke="var(--seam)"/><circle cx="268" cy="242" r="9" fill="var(--lagoon)"/><text x="268" y="246" text-anchor="middle" font-size="11" fill="var(--on-lagoon)" font-weight="700">5</text><text x="282" y="248">Окно</text><text x="282" y="266">отмены</text>
+      </g>
+      <g stroke="var(--seam-2)" stroke-width="1.5" fill="none" marker-end="url(#arr)">
+        <path d="M230 76h18"/><path d="M400 76h18"/><path d="M570 76h18"/>
+        <path d="M665 104v60c0 20-20 40-40 40h-150"/>
+        <path d="M400 256h18"/><path d="M570 256h18"/><path d="M740 256h18"/>
+      </g>
+      <g font-size="12" fill="var(--txt-3)">
+        <text x="150" y="150">5–10 минут у игрока</text>
+        <text x="690" y="150">передача кассе</text>
+        <text x="300" y="300">минуты – 24 ч</text>
+        <text x="470" y="300">0 – 72 ч</text>
+        <text x="610" y="300">минуты – 3 дня</text>
+      </g>
+      <rect x="820" y="48" width="120" height="56" rx="7" fill="var(--pass-tint)" stroke="var(--pass)"/><text x="880" y="72" text-anchor="middle" font-size="13" fill="var(--pass)" font-weight="700">зачислено</text><text x="880" y="90" text-anchor="middle" font-size="12" fill="var(--pass)">сумма сошлась</text>
+      <path d="M835 228v-40c0-20 15-30 30-30" stroke="var(--pass)" stroke-width="1.5" fill="none" marker-end="url(#arr)" stroke-dasharray="4 3"/>
+    </svg>
+    <figcaption>Схема повторяет список шагов выше. Отрезки времени под нижней линией — типовые диапазоны из открытых правил касс, не замер конкретного оператора.</figcaption>
+    <div class="exhibit-table">
+      <table>
+        <caption>Те же восемь шагов: экран, запись кассы и что возвращает заявку назад</caption>
+        <thead><tr><th>Шаг</th><th>Экран игрока</th><th>Что фиксирует касса</th><th>Что возвращает на шаг назад</th></tr></thead>
+        <tbody>
+          <tr><th>1. Доступно к выводу</th><td>строка под балансом</td><td>остаток без бонуса и резерва</td><td>активный бонус, незакрытый раунд</td></tr>
+          <tr><th>2. Рельс и реквизит</th><td>список сохранённых реквизитов</td><td>совпадение с депозитом и с именем в профиле</td><td>чужой реквизит, новая карта</td></tr>
+          <tr><th>3. Сумма и лимит</th><td>поле суммы, подсказка о комиссии</td><td>лимит на операцию, в сутки, в месяц</td><td>сумма выше лимита, серия мелких заявок</td></tr>
+          <tr><th>4. Код и номер</th><td>код из SMS или приложения</td><td>номер заявки, время, резерв суммы</td><td>неверный код, истёкшая сессия</td></tr>
+          <tr><th>5. Окно отмены</th><td>статус pending, кнопка «Отменить»</td><td>место в очереди проверки</td><td>нажатая кнопка отмены</td></tr>
+          <tr><th>6. Запрос документов</th><td>письмо или плашка с перечнем</td><td>статус «на проверке», срок ответа</td><td>неполный пакет, нечитаемый скан</td></tr>
+          <tr><th>7. Approved → sent</th><td>смена статуса, идентификатор</td><td>передача провайдеру, пакет выплат</td><td>лимит оператора у провайдера</td></tr>
+          <tr><th>8. Сверка</th><td>SMS банка, история операций</td><td>заявка закрыта</td><td>расхождение суммы, нет зачисления</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </figure>
+</section>
+
+<!-- 02 доступно к выводу -->
+<section class="leg" id="dostupno" aria-labelledby="h-dostupno">
+  <div class="leg-head"><span class="leg-index">02</span><h2 id="h-dostupno">«Доступно к выводу» против баланса: четыре вычета, которые касса делает до заявки</h2></div>
+  <p class="keyline">Общий баланс и доступная к выводу величина в онлайн казино совпадают только на чистом депозите без бонуса и без открытых раундов. В остальных случаях касса вычитает <b>бонусный баланс, незакрытый оборот, ставки в незавершённых раундах и депозиты в окне возврата</b> — и принимает заявку на остаток.</p>
+  <div class="prose-col">
+    <p>Первый вычет — бонусный кошелёк. У большинства операторов два кошелька: реальный и бонусный. Пока бонус активен, выигрыш с бонусных ставок зачисляется в бонусный кошелёк и не выводится до выполнения вейджера; в правилах это называется sticky- или non-sticky-бонусом в зависимости от того, можно ли вывести реальную часть, не трогая бонус. Строка «доступно к выводу» отражает реальный кошелёк за минусом замороженного условиями акции.</p>
+    <p>Второй вычет — оборот депозита. Правило прокрутки x1 требует поставить сумму депозита хотя бы один раз, иначе оператор трактует выплату как возврат платежа и отклоняет её как транзит денег через игровой счёт. Прогресс прокрутки виден не везде; если строка «доступно» меньше ожидаемой, разница чаще всего и есть непрокрученное пополнение.</p>
+    <p>Третий вычет — незавершённые раунды. Ставка в live-игре, бонусная игра в слоте, оставленная на середине, покерный турнир — всё это резерв до закрытия раунда. Четвёртый вычет встречается реже: карточное пополнение в окне оспаривания. Часть операторов не выпускает такие деньги первые 24–72 часа, потому что в этот период эмитент вправе инициировать chargeback, и площадка останется и без депозита, и без выплаты.</p>
+  </div>
+  <div class="notes">
+    <div class="is-pass"><b>Сходится</b>Депозит по СБП, бонус не брали, оборот x1 закрыт, открытых раундов нет — строка «доступно» равна балансу.</div>
+    <div class="is-flag"><b>Меньше баланса</b>Активен бонус с вейджером или не закрыт оборот — разница лежит в бонусном кошельке или в резерве.</div>
+    <div class="is-halt"><b>Ноль</b>Депозит картой в окне возврата или заявка уже подана и сумма зарезервирована — ждать, не подавать вторую.</div>
+  </div>
+  <details class="qa-fold"><summary>Можно ли отказаться от бонуса после того, как он уже начислен, чтобы вывести реальный остаток?</summary><div class="body"><p>В большинстве касс да: в разделе «Бонусы» есть кнопка отмены активного бонуса, после которой бонусный кошелёк обнуляется вместе с выигрышем на нём, а реальный остаток становится доступен. Исключение — sticky-бонусы, где реальный и бонусный кошельки объединены: отмена списывает сумму бонуса с общего баланса. Условия написаны в правилах конкретного бонуса, строка про отмену обычно стоит рядом с размером вейджера.</p></div></details>
+</section>
+
+<!-- 03 реквизиты -->
+<section class="leg" id="rekvizity" aria-labelledby="h-rekvizity">
+  <div class="leg-head"><span class="leg-index">03</span><h2 id="h-rekvizity">Реквизит в заявке: совпадение имени, номер телефона в СБП и сеть для USDT</h2></div>
+  <p class="keyline">Три ошибки в реквизите дают <b>больше половины отклонённых заявок</b> по описаниям служб поддержки: карта или телефон на другое имя, номер телефона, не привязанный к СБП в банке получателя, и адрес USDT в другой сети, чем выбрана в кассе.</p>
+  <div class="prose-col">
+    <p>Платёжный раздел казино проверяет не только формат реквизита, но и его владельца. По правилам AML имя получателя должно совпадать с именем в профиле: перевод на карту супруга, друга или родителя служба проверки отклоняет как third-party payment. Для карты МИР сверяются имя и фамилия, которые банк-эквайер провайдера видит в ответе на запрос; для СБП — ФИО, которое возвращает банк получателя по номеру телефона в момент перевода. Разница в написании — Юлия и Yuliya, буква ё — обычно не мешает, а другая фамилия останавливает выплату.</p>
+    <p>Для СБП есть второе условие: телефон должен быть привязан к счёту получателя именно как идентификатор СБП, и его банк должен принимать входящие переводы от юридических лиц — выплаты B2C. Если телефон привязан к двум банкам, деньги уйдут в тот, что выбран получателем по умолчанию; в форме вывода этот выбор не делается. В приложении банка настройка называется «Входящие переводы по СБП» или близко к этому.</p>
+    <p>Для USDT касса просит адрес и сеть: TRC-20 (сеть Tron), ERC-20 (Ethereum), реже TON или BEP-20. Адрес ERC-20 и BEP-20 выглядят одинаково, начинаются с 0x — перевод по правильному адресу в неправильной сети уходит на тот же адрес в другой цепочке, и вернуть его может только получатель, если его кошелёк поддерживает обе сети. Адрес TRC-20 начинается с T и несовместим с остальными. На биржевых кошельках дополнительно бывает memo или tag — без него депозит зависает на стороне биржи.</p>
+  </div>
+  <details class="qa-fold"><summary>Касса показывает карту только по маске — как убедиться, что заявка уйдёт на нужную?</summary><div class="body"><p>Маска вида 2200 ··· 4417 содержит первые четыре и последние четыре цифры — этого достаточно, чтобы отличить карты одного банка. Если у игрока две карты с одинаковыми крайними цифрами, в кассе можно открыть историю депозитов: у каждого пополнения записан реквизит, и заявку на вывод стоит подавать на тот, с которого был последний депозит. Удалять лишние реквизиты из профиля перед первой заявкой не нужно — удаление тоже проходит проверку и занимает время.</p></div></details>
+</section>
+
+<!-- 04 сумма -->
+<section class="leg" id="summa" aria-labelledby="h-summa">
+  <div class="leg-head"><span class="leg-index">04</span><h2 id="h-summa">Сумма в заявке: три лимита, комиссия сверху или внутри и почему дробление замедляет</h2></div>
+  <p class="keyline">Сумма сверяется с лимитом <b>на операцию, в сутки и в месяц</b>, и первое же превышение возвращает форму с ошибкой. Дробить сумму под лимит на операцию можно, но <b>серия из трёх и более заявок за час</b> в типовых правилах антифрода отправляется на ручную проверку.</p>
+  <div class="prose-col">
+    <p>Лимиты в правилах онлайн казино пишутся на рельс, а не на аккаунт целиком: у СБП и карты МИР они разные, у USDT — свои, часто без суточного потолка, но с минимумом, покрывающим сетевой сбор. Поверх ограничений оператора действуют ограничения рельса: у СБП перевод физическому лицу ограничен порогом на одну операцию, который устанавливает банк отправителя в рамках регламента системы, у карт — потолком зачисления, который задаёт эмитент.</p>
+    <p>Комиссия отображается до подтверждения, и способ её учёта определяет итог к зачислению. «Сверху» — с баланса уходит заявленное плюс сбор, на счёт приходит ровно заявленное. «Внутри» — приходит заявленное минус сбор. Сверять приход нужно с числом на экране подтверждения, а не с тем, что вводили. Для USDT сбор складывается из фиксированной части оператора и сетевой платы, которая у TRC-20 заметно ниже, чем у ERC-20.</p>
+    <p>Дробление — главный источник самодельных задержек. Антифрод-скоринг считает частоту обращений, их величину относительно депозитов и совпадение чисел; пять выплат по 20 000 ₽ за полчаса выглядят как обход порога, и ручная проверка здесь — штатная реакция. Одно обращение на суточный максимум, следующее — назавтра: медленнее по календарю, но без ручного разбора в итоге быстрее.</p>
+  </div>
+  <details class="qa-fold"><summary>Лимит в месяц исчерпан, а на балансе остаётся крупная сумма — что с ней делать?</summary><div class="body"><p>Ждать начала следующего расчётного периода или запросить у поддержки повышение лимита: у большинства касс есть уровни верификации, где расширенная проверка — источник средств, подтверждение адреса, видеозвонок — открывает более высокий месячный потолок. Второй путь — рельс с другим лимитом: у USDT месячный лимит часто выше, чем у карты. Переводить остаток на счёт другого игрока или выводить через чужой реквизит нельзя — это нарушает правила AML и ведёт к блокировке обоих аккаунтов.</p></div></details>
+</section>
+
+<!-- 05 окно отмены / статусы -->
+<section class="leg" id="otmena" aria-labelledby="h-otmena">
+  <div class="leg-head"><span class="leg-index">05</span><h2 id="h-otmena">Pending, кнопка «Отменить» и reverse withdrawal: окно, в котором заявка ещё обратима</h2></div>
+  <p class="keyline">Заявка обратима ровно до момента, когда служба проверки взяла её в работу: это и есть статус pending с кнопкой «Отменить». После approved отмена невозможна со стороны игрока; после sent деньги уже у провайдера. Типовое окно — <b>от 15 минут до 24 часов</b>.</p>
+  <div class="prose-col">
+    <p>Кнопка отмены — reverse withdrawal — исторически появилась как удобство: передумал выводить, вернул деньги на баланс одним нажатием. На практике она же самый частый способ проиграть выигрыш до того, как он дошёл до счёта, поэтому часть операторов убирает кнопку по требованию регуляторов: регулятор Великобритании UKGC запретил reverse withdrawal в онлайн казино с мая 2020 года, у ряда других юрисдикций это рекомендация. Если кнопки нет — это признак кассы, которая следует более строгим правилам, а не неисправность.</p>
+    <p>Переходы между статусами подчиняются простой машине состояний, и знание её экономит письма в поддержку. Из pending путь ведёт либо в approved, либо в «на проверке» с запросом документов, либо в rejected с кодом причины. Из «на проверке» — обратно в pending после ответа игрока. Из approved — только в sent, и это единственный переход, за который отвечает платёжный отдел, а не комплаенс. Из sent — в зачисление на стороне банка или блокчейна; статуса «зачислено» у оператора нет, он видит лишь успешный ответ провайдера.</p>
+  </div>
+
+  <figure class="exhibit" id="fig-statusy">
+    <svg viewBox="0 0 960 330" role="img" aria-labelledby="t2 d2">
+      <title id="t2">Переходы между статусами заявки на вывод</title>
+      <desc id="d2">Схема состояний: заявка создана, pending, на проверке, approved, sent, зачислено; боковые выходы — отменена игроком и отклонена кассой. Стрелки подписаны тем, кто запускает переход.</desc>
+      <defs><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5 0 10z" fill="var(--seam-2)"/></marker></defs>
+      <g font-size="13" font-weight="700">
+        <rect x="20" y="120" width="130" height="50" rx="25" fill="var(--pane)" stroke="var(--seam-2)"/><text x="85" y="150" text-anchor="middle" fill="var(--txt)">создана</text>
+        <rect x="200" y="120" width="130" height="50" rx="25" fill="var(--queue-tint)" stroke="var(--queue)"/><text x="265" y="150" text-anchor="middle" fill="var(--queue)">pending</text>
+        <rect x="200" y="240" width="130" height="50" rx="25" fill="var(--flag-tint)" stroke="var(--flag)"/><text x="265" y="270" text-anchor="middle" fill="var(--flag)">на проверке</text>
+        <rect x="390" y="120" width="130" height="50" rx="25" fill="var(--lagoon-tint)" stroke="var(--lagoon)"/><text x="455" y="150" text-anchor="middle" fill="var(--lagoon-deep)">approved</text>
+        <rect x="580" y="120" width="130" height="50" rx="25" fill="var(--lagoon-tint)" stroke="var(--lagoon)"/><text x="645" y="150" text-anchor="middle" fill="var(--lagoon-deep)">sent</text>
+        <rect x="770" y="120" width="160" height="50" rx="25" fill="var(--pass-tint)" stroke="var(--pass)"/><text x="850" y="150" text-anchor="middle" fill="var(--pass)">✓ зачислено</text>
+        <rect x="200" y="20" width="130" height="50" rx="25" fill="var(--pane)" stroke="var(--seam-2)"/><text x="265" y="50" text-anchor="middle" fill="var(--txt-2)">отменена</text>
+        <rect x="390" y="240" width="130" height="50" rx="25" fill="var(--halt-tint)" stroke="var(--halt)"/><text x="455" y="270" text-anchor="middle" fill="var(--halt)">✕ отклонена</text>
+      </g>
+      <g stroke="var(--seam-2)" stroke-width="1.5" fill="none" marker-end="url(#arr2)">
+        <path d="M150 145h48"/>
+        <path d="M330 145h58"/>
+        <path d="M520 145h58"/>
+        <path d="M710 145h58"/>
+        <path d="M265 120V72"/>
+        <path d="M250 170v68"/>
+        <path d="M280 240v-68"/>
+        <path d="M330 265h58"/>
+        <path d="M300 170l98 70"/>
+      </g>
+      <g font-size="11.5" fill="var(--txt-3)">
+        <text x="152" y="135">игрок, код</text>
+        <text x="334" y="135">служба</text>
+        <text x="524" y="135">касса</text>
+        <text x="714" y="135">банк / сеть</text>
+        <text x="272" y="98">игрок</text>
+        <text x="150" y="212" text-anchor="end">служба</text>
+        <text x="288" y="212">игрок</text>
+        <text x="340" y="255">служба</text>
+        <text x="330" y="222">антифрод</text>
+      </g>
+      <g font-size="12" fill="var(--txt-3)">
+        <text x="20" y="320">Деньги: в резерве — от «создана» до approved · у оператора — approved · у провайдера — sent · на счёте — зачислено. Отмена и отклонение возвращают сумму на баланс.</text>
+      </g>
+    </svg>
+    <figcaption>Машина состояний собрана по открытым описаниям кабинетов касс; названия статусов у операторов отличаются, переходы — нет.</figcaption>
+    <div class="exhibit-table">
+      <table>
+        <caption>Переходы со схемы: кто запускает и где в этот момент деньги</caption>
+        <thead><tr><th>Переход</th><th>Кто запускает</th><th>Где деньги</th><th>Что видит игрок</th></tr></thead>
+        <tbody>
+          <tr><th>создана → pending</th><td>игрок, подтвердил код</td><td>списаны с баланса в резерв</td><td>строка в истории с номером и временем</td></tr>
+          <tr><th>pending → отменена</th><td>игрок, кнопка «Отменить»</td><td>вернулись на баланс сразу</td><td>заявка закрыта, кнопка исчезла</td></tr>
+          <tr><th>pending → на проверке</th><td>служба проверки</td><td>в резерве</td><td>письмо или плашка с перечнем документов</td></tr>
+          <tr><th>на проверке → pending</th><td>игрок, отправил пакет</td><td>в резерве</td><td>статус вернулся, очередь с начала</td></tr>
+          <tr><th>pending → отклонена</th><td>служба или антифрод</td><td>вернулись на баланс</td><td>код или текст причины</td></tr>
+          <tr><th>pending → approved</th><td>служба проверки</td><td>у оператора, вне резерва</td><td>статус без идентификатора</td></tr>
+          <tr><th>approved → sent</th><td>касса, пакет выплат</td><td>у платёжного провайдера</td><td>идентификатор транзакции</td></tr>
+          <tr><th>sent → зачислено</th><td>банк или сеть</td><td>на счёте игрока</td><td>SMS банка, запись в кошельке</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </figure>
+  <details class="qa-fold"><summary>Статус не менялся 24 часа, кнопка отмены исчезла, но approved тоже нет — что это?</summary><div class="body"><p>Заявка взята в работу службой проверки и ждёт решения — это промежуточное состояние, которое некоторые кабинеты не выделяют отдельным статусом. Если запроса документов не было, срок ответа службы записан в правилах кассы, и до его истечения обращаться в поддержку бесполезно: ответят, что заявка в обработке. После истечения срока обращение с номером заявки — обычная практика, и чаще всего ответ приходит с решением в тот же день.</p></div></details>
+</section>
+
+<!-- 06 документы -->
+<section class="leg" id="dokumenty" aria-labelledby="h-dokumenty">
+  <div class="leg-head"><span class="leg-index">06</span><h2 id="h-dokumenty">Заявка на паузе: пакет документов для проверки личности и источника средств за один вечер</h2></div>
+  <p class="keyline">Запрос документов посреди заявки — не обвинение, а порог: у большинства онлайн казино ручная проверка включается при <b>сумме выше 1 000–2 000 € в эквиваленте</b> или при накопленных выводах выше порога за период. Весь пакет, кроме справки от работодателя, собирается <b>за час</b>.</p>
+  <div class="prose-col">
+    <p>Два разных запроса путают. KYC — подтверждение личности и адреса: разворот паспорта, селфи с документом, квитанция ЖКХ или выписка с адресом не старше трёх месяцев. SoF — source of funds, подтверждение источника средств: откуда взялись деньги, которые игрок внёс и теперь выводит. Второй запрос приходит реже и по закону о противодействии отмыванию у оператора, а не по 115-ФЗ — российский закон действует на банк получателя, и запрос банка о происхождении поступления идёт уже после зачисления, отдельно от кассы.</p>
+    <p>Для SoF подходит любой документ, который связывает сумму с её происхождением: выписка по счёту за период, где видны зарплата или продажа имущества; справка о доходах из личного кабинета ФНС; договор купли-продажи; история сделок с биржи для криптовалюты. Служба сверяет сумму депозитов с суммой дохода в документе, поэтому выписка должна покрывать период, когда делались депозиты, а не последний месяц. Сканы — читаемые, без обрезанных полей, в одном сообщении: каждая досылка возвращает заявку в конец очереди.</p>
+  </div>
+
+  <figure class="exhibit" id="fig-sof">
+    <svg viewBox="0 0 960 330" role="img" aria-labelledby="t3 d3">
+      <title id="t3">Сколько времени занимает получение каждого документа для проверки</title>
+      <desc id="d3">Шесть документов на логарифмической оси времени от десяти минут до десяти суток: выписка по счёту, справка о доходах из кабинета ФНС, экспорт истории сделок, скан договора, справка от работодателя, выписка ЕГРН.</desc>
+      <g font-size="12" fill="var(--txt-3)">
+        <line x1="34%" y1="30" x2="34%" y2="290" stroke="var(--seam)"/><text x="34%" y="304" text-anchor="middle">10 мин</text>
+        <line x1="49.7%" y1="30" x2="49.7%" y2="290" stroke="var(--seam)"/><text x="49.7%" y="304" text-anchor="middle">1 ч</text>
+        <line x1="65.2%" y1="30" x2="65.2%" y2="290" stroke="var(--seam)"/><text x="65.2%" y="304" text-anchor="middle">6 ч</text>
+        <line x1="77.2%" y1="30" x2="77.2%" y2="290" stroke="var(--seam)"/><text x="77.2%" y="304" text-anchor="middle">1 сутки</text>
+        <line x1="86.6%" y1="30" x2="86.6%" y2="290" stroke="var(--seam)"/><text x="86.6%" y="304" text-anchor="middle">3 дня</text>
+        <line x1="94%" y1="30" x2="94%" y2="290" stroke="var(--seam)"/><text x="94%" y="304" text-anchor="middle">7 дней</text>
+      </g>
+      <g font-size="13" fill="var(--txt)">
+        <text x="2%" y="54">Выписка по счёту из приложения</text><line x1="30%" y1="50" x2="34.4%" y2="50" stroke="var(--lagoon)" stroke-width="3"/><circle cx="34.4%" cy="50" r="6" fill="var(--lagoon)" stroke="var(--float)" stroke-width="2"/><text x="37%" y="54" fill="var(--txt-3)" font-size="12">≈ 10 мин</text>
+        <text x="2%" y="96">Справка о доходах из кабинета ФНС</text><line x1="30%" y1="92" x2="44.2%" y2="92" stroke="var(--lagoon)" stroke-width="3"/><circle cx="44.2%" cy="92" r="6" fill="var(--lagoon)" stroke="var(--float)" stroke-width="2"/><text x="47%" y="96" fill="var(--txt-3)" font-size="12">≈ 30 мин</text>
+        <text x="2%" y="138">Экспорт истории сделок с биржи</text><line x1="30%" y1="134" x2="44.2%" y2="134" stroke="var(--lagoon)" stroke-width="3"/><circle cx="44.2%" cy="134" r="6" fill="var(--lagoon)" stroke="var(--float)" stroke-width="2"/><text x="47%" y="138" fill="var(--txt-3)" font-size="12">≈ 30 мин</text>
+        <text x="2%" y="180">Скан договора купли-продажи</text><line x1="30%" y1="176" x2="49.7%" y2="176" stroke="var(--lagoon)" stroke-width="3"/><circle cx="49.7%" cy="176" r="6" fill="var(--lagoon)" stroke="var(--float)" stroke-width="2"/><text x="52.5%" y="180" fill="var(--txt-3)" font-size="12">≈ 1 ч</text>
+        <text x="2%" y="222">Справка о доходах от работодателя</text><line x1="30%" y1="218" x2="86.6%" y2="218" stroke="var(--flag)" stroke-width="3"/><circle cx="86.6%" cy="218" r="6" fill="var(--flag)" stroke="var(--float)" stroke-width="2"/><text x="89%" y="222" fill="var(--txt-3)" font-size="12">до 3 раб. дней</text>
+        <text x="2%" y="264">Выписка ЕГРН через Госуслуги</text><line x1="30%" y1="260" x2="86.6%" y2="260" stroke="var(--flag)" stroke-width="3"/><circle cx="86.6%" cy="260" r="6" fill="var(--flag)" stroke="var(--float)" stroke-width="2"/><text x="89%" y="264" fill="var(--txt-3)" font-size="12">до 3 раб. дней</text>
+      </g>
+    </svg>
+    <figcaption>Ось логарифмическая. Сроки для справки от работодателя и выписки ЕГРН — нормативные: ст. 62 ТК РФ и регламент Росреестра; остальные — оценка редакции по интерфейсам банков и сервисов.</figcaption>
+    <div class="exhibit-table">
+      <table>
+        <caption>Те же шесть документов: что подтверждают, где взять, срок</caption>
+        <thead><tr><th>Документ</th><th>Что подтверждает</th><th>Где взять</th><th>Срок получения</th><th>Срок годности у кассы</th></tr></thead>
+        <tbody>
+          <tr><th>Выписка по счёту</th><td>адрес, доход, депозиты</td><td>приложение банка, PDF с печатью</td><td class="figs">≈ 10 мин</td><td>3 месяца</td></tr>
+          <tr><th>Справка о доходах из кабинета ФНС</th><td>зарплата за год</td><td>ЛК налогоплательщика, раздел «Доходы»</td><td class="figs">≈ 30 мин</td><td>до конца следующего года</td></tr>
+          <tr><th>Экспорт истории сделок</th><td>происхождение USDT</td><td>биржа, раздел отчётов, CSV или PDF</td><td class="figs">≈ 30 мин</td><td>3 месяца</td></tr>
+          <tr><th>Договор купли-продажи</th><td>разовая крупная сумма</td><td>на руках, скан всех страниц</td><td class="figs">≈ 1 ч</td><td>без срока</td></tr>
+          <tr><th>Справка от работодателя</th><td>зарплата за период</td><td>бухгалтерия, по письменному запросу</td><td class="figs">до 3 раб. дней</td><td>3 месяца</td></tr>
+          <tr><th>Выписка ЕГРН</th><td>продажа недвижимости</td><td>Госуслуги, электронная выписка</td><td class="figs">до 3 раб. дней</td><td>без срока</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </figure>
+  <details class="qa-fold"><summary>Запросили источник средств, а деньги на депозит пришли с криптокошелька без биржи — чем подтверждать?</summary><div class="body"><p>Историей самого кошелька: выгрузкой транзакций из приложения кошелька или ссылкой на адрес в обозревателе блоков, где видны входящие переводы. Вместе с ней — документ о том, откуда криптовалюта появилась у игрока: чек P2P-сделки, выписка с биржи, где её покупали, или подтверждение перевода с другого своего кошелька. Служба сверяет цепочку до фиатного источника; если цепочка обрывается, пакет вернут с уточняющим вопросом.</p></div></details>
+</section>
+
+<!-- 07 рельсы после sent -->
+<section class="leg" id="relsy" aria-labelledby="h-relsy">
+  <div class="leg-head"><span class="leg-index">07</span><h2 id="h-relsy">После sent: СБП, карта МИР, USDT и перевод по реквизитам — где уходит время</h2></div>
+  <p class="keyline">На типовой заявке без запроса документов очередь кассы и проверка занимают <b>около 5 часов</b> для любого рельса; дальше различие делает сам рельс: СБП — <b>≈ 5 минут</b>, USDT TRC-20 — <b>≈ 3 минуты</b> после отправки, карта МИР — <b>до 24 часов</b>, перевод по реквизитам счёта — <b>до 2 рабочих дней</b>.</p>
+  <div class="prose-col">
+    <p>СБП — система Банка России, расчёты идут через НСПК круглосуточно в реальном времени; выплата от юридического лица физическому — B2C-перевод, и зачисление происходит за секунды после того, как провайдер отправил платёж. Задержка на этом рельсе почти всегда до sent: провайдер копит выплаты в пакет и отправляет раз в несколько часов или по достижении порога.</p>
+    <p>Карта МИР — перевод на карту через платёжную систему, который банк-эмитент получает как входящую операцию. Зачисление на счёт зависит от эмитента: часть банков отражает сумму сразу, часть — после обработки клиринга, то есть на следующий рабочий день; договор обслуживания карты обычно даёт банку до трёх рабочих дней. Выходные и праздники не считаются. Если на карте висит «ожидание» без суммы — это и есть неразобранный клиринг, а не потеря перевода.</p>
+    <p>USDT в сети TRC-20 подтверждается блоками Tron с интервалом около трёх секунд; биржи и кошельки считают перевод завершённым после 19–20 подтверждений, то есть примерно через минуту. ERC-20 дороже и дольше: подтверждения в Ethereum идут по 12 секунд, кошельки ждут от 12 до 30 блоков. Перевод по реквизитам счёта — самый медленный рельс: платёж идёт через межбанковские расчёты банками-корреспондентами и укладывается в срок до двух рабочих дней, который задан 161-ФЗ для переводов без карт.</p>
+  </div>
+
+  <figure class="exhibit" id="fig-relsy">
+    <svg viewBox="0 0 960 330" role="img" aria-labelledby="t4 d4">
+      <title id="t4">Где уходит время заявки: четыре отрезка по четырём рельсам, часы</title>
+      <desc id="d4">Четыре горизонтальные полосы, каждая разбита на отрезки: очередь кассы, проверка службы, передача провайдеру, зачисление рельсом. СБП около шести часов, USDT около семи, карта МИР около тридцати, перевод по реквизитам около пятидесяти пяти.</desc>
+      <g font-size="12" fill="var(--txt-3)">
+        <line x1="22%" y1="40" x2="22%" y2="250" stroke="var(--seam)"/><text x="22%" y="266" text-anchor="middle">0 ч</text>
+        <line x1="34.67%" y1="40" x2="34.67%" y2="250" stroke="var(--seam)"/><text x="34.67%" y="266" text-anchor="middle">10 ч</text>
+        <line x1="47.33%" y1="40" x2="47.33%" y2="250" stroke="var(--seam)"/><text x="47.33%" y="266" text-anchor="middle">20 ч</text>
+        <line x1="60%" y1="40" x2="60%" y2="250" stroke="var(--seam)"/><text x="60%" y="266" text-anchor="middle">30 ч</text>
+        <line x1="72.67%" y1="40" x2="72.67%" y2="250" stroke="var(--seam)"/><text x="72.67%" y="266" text-anchor="middle">40 ч</text>
+        <line x1="85.33%" y1="40" x2="85.33%" y2="250" stroke="var(--seam)"/><text x="85.33%" y="266" text-anchor="middle">50 ч</text>
+        <line x1="98%" y1="40" x2="98%" y2="250" stroke="var(--seam)"/><text x="98%" y="266" text-anchor="middle">60 ч</text>
+      </g>
+      <g font-size="13" fill="var(--txt)">
+        <text x="2%" y="68">СБП</text>
+        <rect x="22%" y="52" width="1.267%" height="24" fill="var(--seg-1)"/><rect x="23.267%" y="52" width="5.067%" height="24" fill="var(--seg-2)"/><rect x="28.333%" y="52" width="0.633%" height="24" fill="var(--seg-3)"/><rect x="28.967%" y="52" width="0.127%" height="24" fill="var(--seg-4)"/>
+        <text x="30.5%" y="68" fill="var(--txt-3)" font-size="12">≈ 5,6 ч</text>
+        <text x="2%" y="120">USDT TRC-20</text>
+        <rect x="22%" y="104" width="1.267%" height="24" fill="var(--seg-1)"/><rect x="23.267%" y="104" width="5.067%" height="24" fill="var(--seg-2)"/><rect x="28.333%" y="104" width="2.533%" height="24" fill="var(--seg-3)"/><rect x="30.867%" y="104" width="0.063%" height="24" fill="var(--seg-4)"/>
+        <text x="32.5%" y="120" fill="var(--txt-3)" font-size="12">≈ 7,1 ч</text>
+        <text x="2%" y="172">Карта МИР</text>
+        <rect x="22%" y="156" width="1.267%" height="24" fill="var(--seg-1)"/><rect x="23.267%" y="156" width="5.067%" height="24" fill="var(--seg-2)"/><rect x="28.333%" y="156" width="1.267%" height="24" fill="var(--seg-3)"/><rect x="29.6%" y="156" width="30.4%" height="24" fill="var(--seg-4)"/>
+        <text x="61.5%" y="172" fill="var(--txt-3)" font-size="12">≈ 30 ч</text>
+        <text x="2%" y="224">Перевод по реквизитам</text>
+        <rect x="22%" y="208" width="1.267%" height="24" fill="var(--seg-1)"/><rect x="23.267%" y="208" width="5.067%" height="24" fill="var(--seg-2)"/><rect x="28.333%" y="208" width="2.533%" height="24" fill="var(--seg-3)"/><rect x="30.867%" y="208" width="60.8%" height="24" fill="var(--seg-4)"/>
+        <text x="93%" y="224" fill="var(--txt-3)" font-size="12">≈ 55 ч</text>
+      </g>
+      <g font-size="12" fill="var(--txt-2)">
+        <rect x="2%" y="296" width="12" height="12" fill="var(--seg-1)"/><text x="4.2%" y="307">очередь кассы</text>
+        <rect x="20%" y="296" width="12" height="12" fill="var(--seg-2)"/><text x="22.2%" y="307">проверка службы</text>
+        <rect x="40%" y="296" width="12" height="12" fill="var(--seg-3)"/><text x="42.2%" y="307">передача провайдеру</text>
+        <rect x="62%" y="296" width="12" height="12" fill="var(--seg-4)"/><text x="64.2%" y="307">зачисление рельсом</text>
+      </g>
+    </svg>
+    <figcaption>Медианная оценка редакции по открытым правилам касс и регламентам платёжных систем на 1 октября 2026 года; разброс по каждому отрезку — в таблице. Без запроса документов.</figcaption>
+    <div class="exhibit-table">
+      <table>
+        <caption>Те же числа: часы на каждом отрезке и разброс</caption>
+        <thead><tr><th>Рельс</th><th><span class="chip-ink" style="background:var(--seg-1)"></span>Очередь кассы</th><th><span class="chip-ink" style="background:var(--seg-2)"></span>Проверка службы</th><th><span class="chip-ink" style="background:var(--seg-3)"></span>Передача провайдеру</th><th><span class="chip-ink" style="background:var(--seg-4)"></span>Зачисление рельсом</th><th>Итого</th><th>Разброс зачисления</th></tr></thead>
+        <tbody>
+          <tr><th>СБП</th><td class="figs">1</td><td class="figs">4</td><td class="figs">0,5</td><td class="figs">0,1</td><td class="figs">≈ 5,6</td><td>секунды – 15 мин</td></tr>
+          <tr><th>USDT TRC-20</th><td class="figs">1</td><td class="figs">4</td><td class="figs">2</td><td class="figs">0,05</td><td class="figs">≈ 7,1</td><td>1 – 10 мин</td></tr>
+          <tr><th>Карта МИР</th><td class="figs">1</td><td class="figs">4</td><td class="figs">1</td><td class="figs">24</td><td class="figs">≈ 30</td><td>минуты – 3 раб. дня</td></tr>
+          <tr><th>Перевод по реквизитам</th><td class="figs">1</td><td class="figs">4</td><td class="figs">2</td><td class="figs">48</td><td class="figs">≈ 55</td><td>1 – 2 раб. дня</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </figure>
+  <details class="qa-fold"><summary>Заявка подана в пятницу вечером на карту — когда ждать деньги?</summary><div class="body"><p>Очередь кассы и проверка службы у большинства операторов работают без выходных, поэтому статус sent может появиться и в субботу. Дальше считает банк: клиринг по картам у многих эмитентов не проводится в выходные, и перевод, отправленный в субботу, отразится на счёте в понедельник или во вторник. Для СБП выходных нет — зачисление проходит в те же минуты, что и в будни; это главный довод в пользу СБП для заявок перед выходными.</p></div></details>
+</section>
+
+<!-- 08 розыск -->
+<section class="leg" id="rozysk" aria-labelledby="h-rozysk">
+  <div class="leg-head"><span class="leg-index">08</span><h2 id="h-rozysk">Деньги не дошли: ARN, TxID, номер операции СБП и порядок обращения</h2></div>
+  <p class="keyline">Порядок один для всех рельсов: сначала идентификатор у оператора, потом обращение в банк или проверка в обозревателе блоков. Без идентификатора банк не найдёт перевод, а оператор не докажет, что отправил. Розыск перевода на карту у эмитента занимает <b>до 30 дней</b> по 161-ФЗ, обычно — несколько рабочих дней.</p>
+  <div class="prose-col">
+    <p>Для карты идентификатор называется ARN — acquirer reference number, номер, который платёжная система присваивает операции при передаче от провайдера к эмитенту. Рядом бывает RRN — номер ссылки, который видит провайдер; эмитенту нужен именно ARN. С ним банк проверяет, поступила ли операция в клиринг, и либо показывает её в ожидании, либо открывает претензию. Форма претензии есть в приложении большинства банков, срок рассмотрения по закону — до 30 дней, по международным операциям — до 60.</p>
+    <p>Для СБП идентификатор — номер операции, который возвращает НСПК; по нему банк получателя находит перевод мгновенно, и ответ обычно приходит в тот же день. Чаще всего выясняется, что телефон привязан к СБП в другой кредитной организации — деньги лежат там. Для USDT идентификатор — TxID, хеш транзакции; его достаточно вставить в обозреватель блоков сети, и статус виден без обращений: подтверждена, ожидает или не существует. Если TxID нет — провайдер оператора транзакцию не отправлял, и вопрос к кассе, а не к кошельку.</p>
+    <p>Письмо в поддержку пишется коротко: номер заявки, время, рельс, величина, просьба выдать идентификатор. Если в ответ приходит «отправлено, ждите» без идентификатора дольше срока рельса — это признак, что выплата не передана провайдеру, и дальше имеет смысл жалоба по правилам лицензии: у казино с лицензией есть обязанность отвечать на претензию в срок, записанный в условиях, и независимый орган рассмотрения споров, названный на сайте лицензиата.</p>
+  </div>
+  <div class="notes">
+    <div><b>Карта МИР</b>Запросить ARN → проверить «ожидание» в приложении банка → претензия эмитенту с ARN.</div>
+    <div><b>СБП</b>Запросить номер операции → проверить банк по умолчанию для СБП → запрос в банк получателя.</div>
+    <div><b>USDT</b>Запросить TxID → обозреватель блоков сети → при статусе «подтверждена» вопрос к кошельку или бирже.</div>
+  </div>
+</section>
+
+<!-- вопросы -->
+<section class="leg" id="voprosy" aria-labelledby="h-voprosy">
+  <div class="leg-head"><span class="leg-index">09</span><h2 id="h-voprosy">Вопросы, которые остаются после подачи заявки</h2></div>
+  <details class="qa-fold"><summary>Нажал «Отменить» по ошибке — заявку нужно подавать заново?</summary><div class="body"><p>Да. Отмена возвращает сумму на игровой баланс, и прежний номер заявки закрывается. Новая заявка получает новый номер и новое место в очереди, поэтому время ожидания считается с нуля. Единственная выгода отмены — исправить реквизит или сумму до того, как служба проверки взяла заявку в работу.</p></div></details>
+  <details class="qa-fold"><summary>Касса просит селфи с паспортом и листком, где написана дата, — это обычная практика?</summary><div class="body"><p>Да, это шаг усиленной проверки личности: оператор убеждается, что документ держит его владелец, а снимок сделан сейчас, а не взят из утечки. Лист с датой и названием сайта заменяет видеозвонок. Снимать нужно при дневном свете, без обрезки углов паспорта и без фильтров — размытое фото возвращает заявку в очередь ещё на один круг.</p></div></details>
+  <details class="qa-fold"><summary>Статус approved держится второй день, на карту ничего не пришло — на чьей стороне задержка?</summary><div class="body"><p>На стороне оператора. Approved означает только решение службы проверки; платёж ещё не передан провайдеру, иначе статус сменился бы на sent и появился бы идентификатор транзакции. Причины — пакетная отправка выплат раз в сутки, лимит оператора у платёжного провайдера или нехватка ликвидности на рельсе. Запрос в поддержку с номером заявки обычно ускоряет передачу.</p></div></details>
+  <details class="qa-fold"><summary>Комиссию указывать в сумме заявки или касса вычитает её сама?</summary><div class="body"><p>Касса показывает комиссию до подтверждения: либо сверху, когда с баланса списывается сумма заявки плюс комиссия, либо внутри, когда на счёт приходит сумма заявки минус комиссия. Способ записан в правилах кассы, а на экране подтверждения видна итоговая сумма к зачислению. Сверять приход нужно именно с этим числом, а не с суммой, которую вводили в поле.</p></div></details>
+  <details class="qa-fold"><summary>Что такое ARN и где его взять, если банк просит?</summary><div class="body"><p>ARN — номер, который платёжная система присваивает переводу на карту; по нему банк-эмитент находит операцию, даже если она ещё не отразилась на счёте. Выдаёт его оператор или его платёжный провайдер после статуса sent. Без ARN банк может только ждать поступления, а с ARN открывает розыск перевода и отвечает по срокам, записанным в договоре обслуживания карты.</p></div></details>
+  <details class="qa-fold"><summary>Сколько заявок можно держать открытыми одновременно?</summary><div class="body"><p>Обычно одну-три; точное число записано в правилах кассы рядом с лимитами. Пока одна заявка в статусе pending, вторая часто недоступна или уходит в очередь за первой. Несколько открытых заявок подряд на одну сумму антифрод читает как попытку обойти лимит на операцию, поэтому одна заявка в пределах суточного лимита проходит быстрее нескольких мелких.</p></div></details>
+</section>
+
+<!-- канал -->
+<section class="leg" id="pravki" aria-labelledby="h-pravki">
+  <div class="leg-head"><span class="leg-index">10</span><h2 id="h-pravki">Где правки к инструкции выходят раньше, чем на этой странице</h2></div>
+  <div class="wire-box">
+    <div>
+      <p>Статусы, лимиты рельсов и пороги ручной проверки меняются без объявлений: оператор переименовал статус, банк изменил лимит на зачисление, сеть подняла комиссию. Такие правки редакция сначала публикует короткими заметками в канале, а на страницу переносит при следующем пересмотре — дата стоит в начале. Там же выходят разборы новых запросов онлайн казино к игрокам и изменений в регламентах платёжных систем.</p>
+      <p class="faded" style="margin:0">Канал — единственная внешняя ссылка на странице. Партнёрских ссылок и переходов на сайты операторов здесь нет.</p>
+    </div>
+    <a class="wire-go" href="https://t.me/top_casino_2027" rel="noopener" target="_blank">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.6 3.4 2.9 10.6c-1 .4-1 1.2-.2 1.5l4.8 1.5 1.8 5.7c.2.6.4.8.9.8.4 0 .6-.2.9-.5l2.3-2.3 4.8 3.6c.9.5 1.5.2 1.7-.8l3.2-15.1c.3-1.2-.5-1.8-1.5-1.6zM8.5 13.1l9.4-5.9c.5-.3.9-.1.5.2L10.6 14.5l-.3 3.2-1.8-4.6z"/></svg>
+      Заметки о правках в канале
+    </a>
+  </div>
+</section>
+
+<section class="duty" aria-label="Ответственная игра">
+  <div class="age-mark" aria-hidden="true">18+</div>
+  <p>Инструкция написана для совершеннолетних и описывает порядок выплат, а не способы выиграть. Если заявка на вывод подаётся ради того, чтобы остановиться, кнопка «Отменить» работает против этого решения — у операторов есть самоисключение и лимиты на депозит, их стоит включить до следующей сессии. Азартные игры могут вызывать зависимость; помощь доступна по телефонам горячих линий в регионе.</p>
+</section>
+
+<footer class="endmatter">
+  <div><b>Окно кассы</b>Редакция «Окно кассы» разбирает порядок выплат в онлайн казино по открытым правилам операторов и регламентам платёжных систем. Условных операторов и их оценок на странице нет; пример карточки заявки на первом экране — иллюстрация формы.</div>
+  <div><b>Источники</b><ul><li>Правила касс и разделы помощи операторов, публичные описания статусов</li><li>Регламенты СБП и платёжной системы «Мир», договоры обслуживания карт</li><li>161-ФЗ о национальной платёжной системе, ст. 62 ТК РФ, документация сетей Tron и Ethereum</li></ul></div>
+  <div><b>Страница</b><ul><li>Обновлено 1 октября 2026</li><li>Единственная внешняя ссылка — канал в разделе правок</li><li>Шрифты: PT Serif, PT Sans</li></ul></div>
+</footer>
+
+</div>
+</main>
+
+<script>
+(function(){
+  var root=document.documentElement,btn=document.getElementById('lightbtn');
+  try{var saved=localSto.age-mark.getItem('okno-theme');if(saved==='dark'||saved==='light')root.setAttribute('data-theme',saved);}catch(e){}
+  if(btn){btn.addEventListener('click',function(){
+    var dark=root.getAttribute('data-theme')==='dark'||(!root.getAttribute('data-theme')&&matchMedia('(prefers-color-scheme: dark)').matches);
+    var next=dark?'light':'dark';root.setAttribute('data-theme',next);
+    try{localSto.age-mark.setItem('okno-theme',next);}catch(e){}
+  });}
+  var.cashhead=document.getElementById(.cashhead');
+  function onScroll(){if.cashhead.cashhead.classList.toggle('is-stuck',window.scrollY>8);}
+  addEventListener('scroll',onScroll,{passive:true});onScroll();
+  var links=[].slice.call(document.qa-foldSelectorAll('.jumplist a'));
+  if('IntersectionObserver' in window){
+    var map={};links.forEach(function(a){var id=a.getAttribute('href').slice(1);map[id]=a;});
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.classList.remove('is-here');});var a=map[e.target.id];if(a)a.classList.add('is-here');}});},{rootMargin:'-40% 0px -55% 0px'});
+    Object.keys(map).forEach(function(id){var el=document.getElementById(id);if(el)io.observe(el);});
+  }
+})();
+</script>
+</body>
+</html>
